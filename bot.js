@@ -34,11 +34,11 @@ const client = new Discord.Client({disableEveryone: true});
 
 const request = require('request');
 
-const prefix = '3'
+const prefix = 'J'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setGame(`3play | Florida Server`,'https://www.twitch.tv/v5bz');
+	client.user.setGame(`Jhelp :( `,'https://www.twitch.tv/v5bz');
 });
 
 var servers = [];
